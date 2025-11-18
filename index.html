@@ -389,13 +389,11 @@ document.addEventListener('visibilitychange', function () {
 	  
 <script>
 function handleBeforeUnload(event) {
-event.preventDefault(); 
-event.returnValue = ''; 
+  event.preventDefault(); 
+  event.returnValue = ''; 
 }
-<script>
 
 window.addEventListener('beforeunload', handleBeforeUnload);
-
 </script>
 	  <script>
       function mergeFiles(fileParts) {
